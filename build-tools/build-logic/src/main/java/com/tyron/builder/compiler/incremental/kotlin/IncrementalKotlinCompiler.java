@@ -103,6 +103,7 @@ public class IncrementalKotlinCompiler extends Task<AndroidModule> {
             args.setModuleName("codeassist-kotlin");
             args.setNoReflect(true);
             args.setNoStdlib(true);
+            args.setUseFastJarFileSystem(true);
             args.setSuppressWarnings(false);
             args.setJavaSourceRoots(javaSourceRoots.stream()
                     .map(File::getAbsolutePath)

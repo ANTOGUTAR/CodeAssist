@@ -26,6 +26,8 @@
 <img style="width: 45%; height: 100%; padding-right: 10px" src=".github/resources/images/features_title_dark.png?raw=true#gh-light-mode-only">
 <img style="width: 45%; height: 100%; padding-right: 10px" src=".github/resources/images/features_title_light.png?raw=true#gh-dark-mode-only">
 
+- [x] Gradle Support (80%)
+
 - [x] APK Compilation
 
 - [x] AAB Support
@@ -48,7 +50,7 @@
 
 - [ ] Debugger
 
-- [ ] Lint 
+- [ ] Lint
 
 <img style=" width: 100%;" src=".github/resources/images/hr.jpg">
 
@@ -74,9 +76,9 @@ Clone this repository to your local device and then open it on Android Studio.
 
 ## Contributing
 
-- Pull request must have a short description as a title and a more detailed one in the description
+- Pull request must have a short description as a title and a more detailed one in the description.
 
-- Feature additions must include Unit/Instrumentation tests. This is for future stability of the app and modules.
+- Feature additions must include Unit/Instrumentation tests. This is for maintaining the future stability of the app and modules.
 
 
 
